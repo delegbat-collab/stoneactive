@@ -572,5 +572,128 @@ document.querySelectorAll('.faq-q').forEach(q=>{
   });
 });
 </script>
-</body>
+<!-- ==========================================
+     "ХЭРХЭН ОРОЛЦОХ ВЭ?" ХЭСЭГ
+     Энэ кодыг сайтын </body> таг-ын өмнө нэмнэ үү
+========================================== -->
+
+<section id="oroltsokh" style="font-family: 'Inter', -apple-system, sans-serif; background: #0a0a0a; color: #f0ede6; padding: 64px 24px;">
+
+  <div style="max-width: 960px; margin: 0 auto;">
+
+    <div style="font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: #c8a96e; margin-bottom: 10px;">
+      Оролцох заавар
+    </div>
+
+    <h2 style="font-size: 30px; font-weight: 600; line-height: 1.2; margin-bottom: 8px; color: #f0ede6;">
+      Хэрхэн <em style="font-style: italic; color: #c8a96e;">оролцох вэ?</em>
+    </h2>
+
+    <p style="font-size: 14px; color: #666; margin-bottom: 44px;">
+      Хуучин орон сууцны оршин суугч бол доорх мэдээллээ бөглөж бидэнтэй холбогдоорой.
+    </p>
+
+    <!-- 3 алхам -->
+    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 48px;">
+      <div style="background: #141414; border: 0.5px solid #2a2a2a; border-radius: 10px; padding: 20px;">
+        <div style="font-size: 10px; color: #c8a96e; letter-spacing: 0.1em; margin-bottom: 8px;">01</div>
+        <div style="font-size: 13px; font-weight: 500; color: #f0ede6;">Маягт бөглөж илгээнэ</div>
+      </div>
+      <div style="background: #141414; border: 0.5px solid #2a2a2a; border-radius: 10px; padding: 20px;">
+        <div style="font-size: 10px; color: #c8a96e; letter-spacing: 0.1em; margin-bottom: 8px;">02</div>
+        <div style="font-size: 13px; font-weight: 500; color: #f0ede6;">Мэргэжилтэн холбогдоно</div>
+      </div>
+      <div style="background: #141414; border: 0.5px solid #2a2a2a; border-radius: 10px; padding: 20px;">
+        <div style="font-size: 10px; color: #c8a96e; letter-spacing: 0.1em; margin-bottom: 8px;">03</div>
+        <div style="font-size: 13px; font-weight: 500; color: #f0ede6;">Эрхийн үнэлгээ эхэлнэ</div>
+      </div>
+    </div>
+
+    <!-- Форм -->
+    <div style="background: #141414; border: 0.5px solid #2a2a2a; border-radius: 14px; padding: 28px;">
+      <div style="font-size: 16px; font-weight: 500; color: #f0ede6; margin-bottom: 20px; padding-bottom: 14px; border-bottom: 0.5px solid #222;">
+        Байрны мэдээлэл бөглөх
+      </div>
+
+      <div id="sa-formContent">
+        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; margin-bottom: 20px;">
+
+          <!-- Дүүрэг -->
+          <div style="display: flex; flex-direction: column; gap: 6px;">
+            <label style="font-size: 11px; color: #666; letter-spacing: 0.06em; text-transform: uppercase;">Дүүрэг</label>
+            <select id="sa_district" style="background: #0a0a0a; border: 0.5px solid #333; border-radius: 8px; color: #f0ede6; font-size: 13px; padding: 10px 12px; font-family: inherit; outline: none; appearance: none; -webkit-appearance: none; cursor: pointer;">
+              <option value="">— Сонгох —</option>
+              <option>Баянзүрх дүүрэг</option>
+              <option>Баянгол дүүрэг</option>
+              <option>Сүхбаатар дүүрэг</option>
+              <option>Чингэлтэй дүүрэг</option>
+              <option>Хан-Уул дүүрэг</option>
+              <option>Налайх дүүрэг</option>
+              <option>Багануур дүүрэг</option>
+              <option>Багахангай дүүрэг</option>
+              <option>Сонгинохайрхан дүүрэг</option>
+            </select>
+          </div>
+
+          <!-- Хороо -->
+          <div style="display: flex; flex-direction: column; gap: 6px;">
+            <label style="font-size: 11px; color: #666; letter-spacing: 0.06em; text-transform: uppercase;">Хороо</label>
+            <select id="sa_khoroo" style="background: #0a0a0a; border: 0.5px solid #333; border-radius: 8px; color: #f0ede6; font-size: 13px; padding: 10px 12px; font-family: inherit; outline: none; appearance: none; -webkit-appearance: none; cursor: pointer;">
+              <option value="">— Сонгох —</option>
+              <option>1-р хороо</option><option>2-р хороо</option><option>3-р хороо</option>
+              <option>4-р хороо</option><option>5-р хороо</option><option>6-р хороо</option>
+              <option>7-р хороо</option><option>8-р хороо</option><option>9-р хороо</option>
+              <option>10-р хороо</option><option>11-р хороо</option><option>12-р хороо</option>
+              <option>13-р хороо</option><option>14-р хороо</option><option>15-р хороо</option>
+              <option>16-р хороо</option><option>17-р хороо</option><option>18-р хороо</option>
+              <option>19-р хороо</option><option>20-р хороо</option>
+            </select>
+          </div>
+
+          <!-- Давхар -->
+          <div style="display: flex; flex-direction: column; gap: 6px;">
+            <label style="font-size: 11px; color: #666; letter-spacing: 0.06em; text-transform: uppercase;">Хүчин байрлагийн давхар</label>
+            <select id="sa_floor" style="background: #0a0a0a; border: 0.5px solid #333; border-radius: 8px; color: #f0ede6; font-size: 13px; padding: 10px 12px; font-family: inherit; outline: none; appearance: none; -webkit-appearance: none; cursor: pointer;">
+              <option value="">— Сонгох —</option>
+              <option>1-р давхар</option><option>2-р давхар</option><option>3-р давхар</option>
+              <option>4-р давхар</option><option>5-р давхар</option><option>6-р давхар</option>
+              <option>7-р давхар</option><option>8-р давхар</option><option>9-р давхар</option>
+              <option>10-р давхар</option><option>11-р давхар</option><option>12-р давхар</option>
+            </select>
+          </div>
+
+        </div>
+
+        <button onclick="saSubmit()" style="width: 100%; background: #c8a96e; color: #0a0a0a; border: none; border-radius: 8px; padding: 13px; font-size: 14px; font-weight: 600; font-family: inherit; cursor: pointer;">
+          Мэдээлэл илгээх
+        </button>
+        <p style="font-size: 11px; color: #444; text-align: center; margin-top: 10px;">
+          Анхны зөвлөгөө бүрэн үнэгүй · 24 цагийн дотор холбогдоно
+        </p>
+      </div>
+
+      <!-- Амжилттай мессеж -->
+      <div id="sa-success" style="display: none; text-align: center; padding: 24px 0 8px;">
+        <div style="font-size: 28px; color: #c8a96e; margin-bottom: 10px;">✓</div>
+        <div style="font-size: 15px; font-weight: 500; color: #f0ede6; margin-bottom: 6px;">Амжилттай илгээгдлээ!</div>
+        <div style="font-size: 12px; color: #555;">Бид 24 цагийн дотор тантай холбогдох болно.</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<script>
+function saSubmit() {
+  var d = document.getElementById('sa_district').value;
+  var k = document.getElementById('sa_khoroo').value;
+  var f = document.getElementById('sa_floor').value;
+  if (!d || !k || !f) {
+    alert('Бүх мэдээллийг сонгоно уу.');
+    return;
+  }
+  document.getElementById('sa-formContent').style.display = 'none';
+  document.getElementById('sa-success').style.display = 'block';
+}
+</script></body>
 </html>
